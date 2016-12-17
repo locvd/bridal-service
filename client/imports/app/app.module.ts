@@ -3,12 +3,14 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppComponent } from "./app.component";
 import { DemoComponent } from "./demo/demo.component";
 import { DemoDataService } from "./demo/demo-data.service";
+import { WeddingHomeComponent } from "./wedding/wd-home.component";
 
 @NgModule({
   // Components, Pipes, Directive
   declarations: [
     AppComponent,
-    DemoComponent
+    DemoComponent,
+    WeddingHomeComponent
   ],
   // Entry Components
   entryComponents: [
